@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Free CRM Test Automation ]">
+  <test thread-count="5" verbose="0" name="Free CRM Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="clickContactTabTest"/>
+          <include name="init"/>
+          <include name="verifyUserNameTest"/>
+          <include name="teardown"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="verifySingleSelectContactNameTest"/>
+          <include name="init"/>
+          <include name="verifyContactPageLabelTest"/>
+          <include name="verifyMulitiSelectContactNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyDeletecontactTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="ClickLoginButtonTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="crmLogoTest"/>
+          <include name="LandingPageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LandingPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="loginTest"/>
+          <include name="pageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test Cases(failed) -->
+</suite> <!-- Failed suite [Free CRM Test Automation ] -->
